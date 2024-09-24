@@ -4,8 +4,8 @@
                 </div>
             <strong>Copyright © 2024-2030 <a href="https:www.utb.edu.bo">Alaugon</a>.</strong> Todos los derechos reservados.
         </footer>
-        <script src="/webodontologia/js/jquery.min.js"></script>
-        <script src="/webodontologia/js/bootstrap.bundle.min.js"></script>
-        <script src="/webodontologia/js/adminlte.min.js"></script>
+        <script src="/smileapp/js/jquery.min.js"></script>
+        <script src="/smileapp/js/bootstrap.bundle.min.js"></script>
+        <script src="/smileapp/js/adminlte.min.js"></script>
     </body>
 </html>

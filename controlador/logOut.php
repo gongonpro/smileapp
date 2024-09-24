@@ -1,5 +1,5 @@
 <?php
 session_start();
 session_destroy();
-header('Location: /webodontologia/index.php')
+header('Location: /smileapp/index.php')
 ?>

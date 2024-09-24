@@ -9,27 +9,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <!-- hoja de estilo-->
-    <link rel="stylesheet" type="text/css" href="/webodontologia/css/fonts/fonts.css">
-    <link rel="stylesheet" type="text/css" href="/webodontologia/css/style.css">
-    <link rel="stylesheet" type="text/css" href="/webodontologia/css/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/smileapp/css/fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="/smileapp/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/smileapp/css/fontawesome-free-6.6.0-web/css/all.min.css">
 </head>
 <?php
 session_start();
     if(!empty($_SESSION['us_tipo'])){
-        header('Location: /webodontologia/controlador/loginController.php');
+        header('Location: /smileapp/controlador/loginController.php');
     }
     else{
         session_destroy();
 ?>
 <body>
-    <img class="wave" src="/webodontologia/img/wave.png" alt="">
+    <img class="wave" src="/smileapp/img/wave.png" alt="">
     <div class="contenedor">
         <div class="img">
-            <img src="/webodontologia/img/bg.svg" alt="">
+            <img src="/smileapp/img/bg.svg" alt="">
         </div>
         <div class="contenido-login">
-            <form action="/webodontologia/controlador/medico.php" method="post">
-                <img class="logo" src="/webodontologia/img/logo.png" alt="">
+            <form action="/smileapp/controlador/medico.php" method="post">
+                <img class="logo" src="/smileapp/img/logo.png" alt="">
                 <h2>SMILEAPP</h2>
                 <h3>INGRESAR</h3>
                 <div class="input-div ci">
@@ -57,7 +57,7 @@ session_start();
         </div>
     </div>
 </body>
-<script src="/webodontologia/js/login.js"></script>
+<script src="/smileapp/js/login.js"></script>
 </html>
 <?php
     }

@@ -1,5 +1,5 @@
 <?php
-include_once '/webodontologia/modelo/Usuario.php';
+include_once '/smileapp/modelo/Usuario.php';
 session_start();
     $user = $_POST['user'];
     $pass = $_POST['pass'];
@@ -8,13 +8,13 @@ session_start();
     if(!empty($_SESSION['us_tipo'])){
         switch ($_SESSION['us_tipo']){
             case 1:
-                header('Location: ./webodontologia/vista/adm.php');
+                header('Location: ./smileapp/vista/adm.php');
                 break;
             case 2:
-                header('Location: /webodontologia/vista/adm.php');
+                header('Location: /smileapp/vista/adm.php');
                 break;
             case 3:
-                header('Location: /webodontologia/vista/adm.php');
+                header('Location: /smileapp/vista/adm.php');
                 break;
         }
     }
@@ -28,18 +28,18 @@ session_start();
             }
             switch ($_SESSION['us_tipo']){
                 case 1:
-                    header('Location: ./webodontologia/vista/adm.php');
+                    header('Location: ./smileapp/vista/adm.php');
                     break;
                 case 2:
-                    header('Location: /webodontologia/vista/adm.php');
+                    header('Location: /smileapp/vista/adm.php');
                     break;
                 case 3:
-                    header('Location: /webodontologia/vista/adm.php');
+                    header('Location: /smileapp/vista/adm.php');
                     break;
             }
         }
         else{
-            header('Location: /webodontologia/login.php');
+            header('Location: /smileapp/login.php');
         }
     }
 ?>    

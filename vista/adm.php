@@ -13,6 +13,6 @@ include_once 'layouts/footer.php'
 /*
 }
 else{
-    header('Location: /webodontologia/vista/login.php');
+    header('Location: /smileapp/vista/index.php');
 }*/
 ?>
