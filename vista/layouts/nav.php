@@ -7,7 +7,7 @@
         <!-- Theme style -->
         <link rel="stylesheet" href="/smileapp/css/adminlte.min.css">
     </head>
-    <body class="sidebar-mini dark-mode layout-navbar-fixed layout-fixed layout-footer-fixed accent-lightblue sidebar-collapse" style="height: auto;">
+    <body class="sidebar-mini dark-mode layout-navbar-fixed layout-fixed layout-footer-fixed accent-lightblue" style="height: auto;">
         <div class="wrapper">
             <nav class="main-header navbar navbar-expand border-bottom-0 navbar-light bg-lightblue">
                 <ul class="navbar-nav">
@@ -17,7 +17,7 @@
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     
-                        <a href="/smileapp/controlador/logOut.php" style="color: white">Cerrar Sesion</a>
+                        <a href="/smileapp/controlador/logOut.php" class="btn btn-danger">Cerrar Sesion</a>
                     
                 </ul>
             </nav>
@@ -32,7 +32,7 @@
                             <img src="/smileapp/img/avatar.png" class="img-circle elevation-2" alt="User Image">
                         </div>
                         <div class="info">
-                            <a href="/smileapp/vista/adm.php" class="d-block">Usuario administrador</a>
+                            <a href="/smileapp/vista/adm.php" class="d-block">Administrador</a>
                         </div>
                     </div>
                 <!-- Navegador -->
@@ -42,21 +42,21 @@
                             <a href="#" class="nav-link">
                             <i class="fa-solid fa-user-tie"></i>
                             <p>
-                            USUARIOS
+                            Usuarios
                             <i class="right fas fa-angle-left"></i>
                             </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="agregarPaciente.php" class="nav-link">
-                                    <i class="nav-icon far fa-image"></i>
-                                    <p>Agregar Paciente</p>
+                                    <a href="../vista/mostrarUsuarios.php" class="nav-link">
+                                    <i class="fa-solid fa-users"></i>
+                                    <p>Mostrar Usuarios</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="listaPacientes.php" class="nav-link">
-                                    <i class="nav-icon far fa-image"></i>
-                                    <p>Lista de Pacientes</p>
+                                    <a href="../vista/mostrarUsuarios.php" class="nav-link">
+                                    <i class="fa-solid fa-user-plus"></i>
+                                    <p>Agregar Usuario</p>
                                     </a>
                                 </li>
                             </ul>
@@ -65,7 +65,7 @@
                             <a href="#" class="nav-link">
                             <i class="fa-solid fa-hospital-user"></i>
                             <p>
-                            PACIENTES
+                            Pacientes
                             <i class="right fas fa-angle-left"></i>
                             </p>
                             </a>
@@ -88,7 +88,7 @@
                             <a href="#" class="nav-link">
                             <i class="fa-solid fa-stethoscope"></i>
                             <p>
-                            DOCTORES
+                            Doctores
                             <i class="right fas fa-angle-left"></i>
                             </p>
                             </a>
@@ -111,7 +111,7 @@
                             <a href="#" class="nav-link">
                             <i class="fa-solid fa-kit-medical"></i>
                             <p>
-                            FARMACIA
+                            Farmacia
                             <i class="right fas fa-angle-left"></i>
                             </p>
                             </a>
@@ -134,7 +134,7 @@
                             <a href="#" class="nav-link">
                             <i class="fa-solid fa-tooth"></i>
                             <p>
-                            TRATAMIENTO
+                            Tratamiento
                             <i class="right fas fa-angle-left"></i>
                             </p>
                             </a>
@@ -157,7 +157,7 @@
                             <a href="#" class="nav-link">
                             <i class="fa-solid fa-file-medical"></i>
                             <p>
-                            PRESCRIPCION
+                            Prescripcion
                             <i class="right fas fa-angle-left"></i>
                             </p>
                             </a>
@@ -180,7 +180,7 @@
                             <a href="#" class="nav-link">
                             <i class="fa-solid fa-chart-line"></i>
                             <p>
-                            INGRESOS Y GASTOS
+                            Ingresos-Gastos
                             <i class="right fas fa-angle-left"></i>
                             </p>
                             </a>
@@ -203,7 +203,7 @@
                             <a href="#" class="nav-link">
                             <i class="fa-solid fa-gears"></i>
                             <p>
-                            ADMINISTRACION
+                            Backup
                             <i class="right fas fa-angle-left"></i>
                             </p>
                             </a>
@@ -226,7 +226,7 @@
                             <a href="#" class="nav-link">
                             <i class="fa-solid fa-calendar-days"></i>
                             <p>
-                            CONTROL DE CITAS
+                            Agenda
                             <i class="right fas fa-angle-left"></i>
                             </p>
                             </a>
