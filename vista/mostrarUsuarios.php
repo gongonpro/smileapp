@@ -10,7 +10,7 @@ if($_SESSION['us_tipo']==1){*/
 <div class="content-wrapper">
     <section class="content-header">
         <div class="row mb-3">
-            <div class="col-sm-6">
+            <div class="col-sm-12">
                 <div class="card-header">
                         <h1 class="card-title">Mostrar Usuarios</h1>
                 </div>
