@@ -54,7 +54,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="../vista/mostrarUsuarios.php" class="nav-link">
+                                    <a href="../vista/nuevoUsuario.php" class="nav-link">
                                     <i class="fa-solid fa-user-plus"></i>
                                     <p>Agregar Usuario</p>
                                     </a>
